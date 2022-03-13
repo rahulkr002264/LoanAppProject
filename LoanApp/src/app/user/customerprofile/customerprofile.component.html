@@ -1,0 +1,21 @@
+<div class="div1">
+
+            <h2>Profile Information</h2>
+        <h4 *ngFor = " let app of ProfileDetails ">
+            <br>
+            
+                <table class="innerT">
+                    <tr>
+                        <td>Name :{{app.ApplicantName}}</td>  <td> Address :{{app.ApplicantAddress}}</td> 
+                   </tr>
+                   <tr>
+                        <td>Mobile no:{{app.ApplicantPhoneno}} </td>  <td>Loan Id:{{app.ApplicantLoanId}}</td>
+                    </tr>
+                    <tr>
+                        <td>Email :{{app.ApplicantEmail}}</td>  <td>Monthly emi:{{app.ApplicantEmi}}</td>
+              
+                    </tr>
+                </table>
+        </h4>
+</div>  
+    

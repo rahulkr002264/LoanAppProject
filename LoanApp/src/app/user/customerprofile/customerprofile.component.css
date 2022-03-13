@@ -1,0 +1,25 @@
+.div1{
+    text-align: center;
+    height: 100%;
+    background-color: grey;
+
+}
+
+Table,td{
+    text-align: middle;
+
+}
+table{
+    width: 100%;
+    height: 100%;
+}
+
+td{
+    height: 150px;
+    border: 95px solid;
+    background-color:rgb(235, 233, 233);
+    border-color: rgb(138, 137, 137);
+}
+
+
+

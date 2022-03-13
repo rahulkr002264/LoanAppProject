@@ -1,0 +1,22 @@
+<div class="div1">
+<table class="outerT">
+    <tr *ngFor = " let app of LoanDetails ">
+        <br>
+            <table class="innerT">
+                <tr>
+                    <td>ApplicantName :{{app.ApplicantName}}</td>  <td>Applicant Phone no:{{app.ApplicantPhoneno}}</td>  <td>Applicant PAN no:{{app.ApplicantPANno}}</td>
+               </tr>
+               <tr>
+                    <td>Applicant Address :{{app.ApplicantAddress}}</td>  <td>Applicant Loan Id :{{app.ApplicantLoanId}}</td><td>Applicant Salary :{{app.ApplicantSal}}</td>
+                </tr>
+                <tr>
+                    <td>Applicant Email :{{app.ApplicantEmail}}</td>  <td>Applicant Aadhar :{{app.ApplicantAadhar}}</td>
+                    <td>   
+                       Loan Status :{{app.Approval}}
+                    </td>
+                </tr>
+            </table>
+    
+    </tr>
+</table>
+</div>

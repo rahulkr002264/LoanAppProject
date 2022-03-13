@@ -1,0 +1,15 @@
+.div1{
+    text-align: center;
+}
+.outerT{
+    width: 90%;
+    margin-left: 45px;
+    text-align: left;
+
+}
+
+.innerT{
+    background-color: grey;width: 100%;
+    height: 120px;
+    padding-left: 0px;
+}
